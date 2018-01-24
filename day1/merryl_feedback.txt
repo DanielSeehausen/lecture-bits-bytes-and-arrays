@@ -1,0 +1,9 @@
+ - when saying what we are going to talk about provide some visual pathway along with that
+ - gestures bueno and to describe these things are tangible
+ - liked use of terminal commands pasting straight in and in the order
+ - biggest improvement is to reiterate/circle back on subjects just described
+ - try to diversify the individuals answering more
+ - liked the react application visual
+ - go forward assuming they believe javascript arrays are functioning as we have
+   explored them (contiguous in memory). only later even bring up that
+  javascript arrays are liars

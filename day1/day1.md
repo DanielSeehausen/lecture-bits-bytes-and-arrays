@@ -2,7 +2,7 @@
   - a couple of fundamentals
   - what does it mean to pass by reference and pass by value?
   - want to discuss bits/bytes memory usage
-  - transition that into discussing true arrays
+  - transition that into discussing arrays
   - in comes a vector bjarne you are the man
   - then we forget everything and address javascript's abomination arrays
 
@@ -12,7 +12,6 @@
   - JS primitives: string, number, boolean, null, undefined, symbol (<-- introduced in es6)
   - what does ruby do with types? so those are 'wrapper classes?'
   - cool thing python does with storing common values
-
 
 ### Bits bytes
   - Well, when we are talking about 'pointing' to the actual value in memory...what are we talking about?
@@ -29,8 +28,7 @@
     - Numbers up to 15 digits long are accurate
 
 ### Alright -- we are ready to talk about Arrays and Vectors
-  - We are talking GENERAL now -- not javascript!
-  - what is an array 'really'?
+  - what is an array really?
   - **contiguous memory -- no need for pointers to elements!**
   - talk more about resizing and show it more with array operations react application
   - Q: any ideas on how we can store a sequence of things outside of this contiguous paradigm???

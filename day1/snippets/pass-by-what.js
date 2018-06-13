@@ -2,7 +2,7 @@
 
 q = 3
 w = 3
-q === w
+q === w // ??
 
 a = {}
 b = {}
@@ -54,9 +54,15 @@ NaN == NaN
 typeof NaN // 'number'....
 
 
-// and time for the ultimate gotcha...
+
+3/0
+// Infinity
+typeof Infinity
+// 'number'
 typeof 3/0
+// NaN
 // NO! Stop lying to me, NaN is not a type!
-3/0 // return infinity
+
 typeof Infinity // returns 'Number' (whew back to normal) then why!?
-typeof (3/0) // 'Number'...im done
+typeof (3/0) // 'Number'
+typeof 3/0 // 'NaN'

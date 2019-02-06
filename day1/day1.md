@@ -1,3 +1,20 @@
+INSTRUCTOR NOTES:
+
+I generally have a non-mirror setup for the lecture
+this is more an outline for me to stay on queue
+
+there are videos that are backup in case one can't get:
+`https://github.com/DanielSeehausen/array-resizing-react`
+running, but I haven't had a problem or heard complaints so far. (`npm install & npm start` iirc)
+
+the pass-by-what in snippets is used in the early sections, to play with some assumptions/reality differences. (here I display an empty terminal running node while looking at the snippets on my screen to make sure I don't make a fool of myself)
+
+the starcraft and dank-ghandi images are to augment the discussion around what a type really means re: reserved memory, by talking about fun examples of type bounds and integer overflow. the starcraft example was because certain values only incremented to 255, and the ghandi one was because his nice score incremented, then overflowed, and he became a jerk and started nuking everyone in game.
+
+then the visual representations I generally do alongside a whiteboard/chalkboard representation of linked lists. helps to make the point of the cost of resizing an array/fragmented memory, etc. There are a lot of things not complete about the example (i.e. in the linked list memory blocks, they shouldn't be able to hold as large of integers as the array example, because of the overhead of holding the pointer to next element as well). Stuff like that should be explored on the fly, depending on student interest. We are assuming a singly linked list, where the nodes own their pointers, not some external map.
+
+if there is somehow time left over, I try to do some pair/group coding on implementing a rudimentary linked list. I give them the template, then ask them to slack me solutions after some time and put it up on the big screen and explore it!
+
 # Why lecture/what is it about (section overview)
   - a couple of fundamentals
   - what does it mean to pass by reference and pass by value?

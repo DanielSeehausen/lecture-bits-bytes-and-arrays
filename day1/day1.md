@@ -5,7 +5,7 @@ this is more an outline for me to stay on queue
 
 there are videos that are backup in case one can't get:
 `https://github.com/DanielSeehausen/array-resizing-react`
-running, but I haven't had a problem or heard complaints so far. (`npm install & npm start` iirc)
+running, but I haven't had a problem or heard complaints so far. (`npm install & npm start`)
 
 the pass-by-what in snippets is used in the early sections, to play with some assumptions/reality differences. (here I display an empty terminal running node while looking at the snippets on my screen to make sure I don't make a fool of myself)
 
